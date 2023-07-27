@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* for_display_adjustment */
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.left_side {
+    font-size: 20px;
+}
+
+.right_side {
+    margin-top: 20px;
+}
+
+.form-signup input[type="text"],
+.form-signup input[type="email"],
+.form-signup input[type="password"],
+.form-signup button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-signup label {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* middium sized device */
+
+@media (max-width: 768px) {
+    .box {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+/* small device */
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
