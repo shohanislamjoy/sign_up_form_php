@@ -1,6 +1,6 @@
 # sign_up_form
 
 
-##signup.html and css for forntEnd.
+## signup.html and CSS for frontend.
 
-##signup.php has the database connection and sql code.
+## signup.php has the database connection and SQL code.
